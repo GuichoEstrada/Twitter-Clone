@@ -36,3 +36,8 @@
 .navigation a:hover {
     color: red;
 }
+
+header {
+    background-position: center;
+    background-size: cover;
+}

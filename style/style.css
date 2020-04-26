@@ -9,7 +9,6 @@ body {
 
 header {
     min-height: 350px;
-    background-image: url(../assets/banner.jpg);
     background-size: cover;
     background-position: top;
     color: white;
@@ -19,6 +18,11 @@ header {
     align-items: center;
     position: relative;
 }
+
+.home-page header {
+    background-image: url(../assets/banner.jpg);
+}
+
 header > * {
     z-index: 1;
 }
